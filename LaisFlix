@@ -1,0 +1,9 @@
+var listaFilmes = [
+  "https://i.pinimg.com/236x/4e/d4/d0/4ed4d0daef23409b7d892f7ac2d65f83.jpg",
+  "https://media.fstatic.com/zZ9xRfI1V0YUEP0Tj44lU6CpoqA=/268x386/smart/media/movies/covers/2010/09/d0e4fdcdb2e49fc8fe63dc79e035c068.jpg",
+  "http://2.bp.blogspot.com/-wDSQUnRok74/UEuVss2GEmI/AAAAAAAAMFU/APgI6gRwGyY/s1600/a_prova_capa.jpg"
+];
+
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write("<img src=" + listaFilmes[i] + ">");
+}
